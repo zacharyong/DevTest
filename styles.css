@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+p {
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.backgroundimage {
+    background-image: "assets\main-banner.png";
+    height: 40%;
+}
+
+.hero-image {
+    background-image: url("assets/banner-wave.svg"), url("assets/main-banner.png");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center bottom, center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+}
